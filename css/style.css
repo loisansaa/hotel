@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-bg {
+  height: 100vh;
+  background-image: url(/assets/bed-pic2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-bar {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 90px;
+  color: black;
+  gap: 10px;
+ 
+}
+.center-text h1 {
+  font-size: 60px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #6D6151;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.inputs {
+  height: 90px;
+  background-color: #9B3500;
+  background-color: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.inputs button {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.inputs input {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  border: none;
+}
+
+.inputs select {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  border: none;
+}
+
+.sec3 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top-word{
+  font-size: 20px;
+  padding-left: 30px;
+}
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 26px;
+    height: 50%;
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.card1, .card2, .card3 {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  justify-content: space-around;
+
+}
