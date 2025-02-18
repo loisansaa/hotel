@@ -13,18 +13,20 @@
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .nav-items li {
   list-style: none;
 }
 .nav-bar {
-  height: 100px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-around;
   padding-top: 30px;
+  font-size: 18px;
+  background-color: rgb(250, 235, 215, 0.5);
 }
 .nav-items {
   display: flex;
@@ -120,4 +122,40 @@ button {
   padding: 30px;
   justify-content: space-around;
 
+}
+.sec3 button {
+  margin-left: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.sec4{
+  height: 100vh;
+  display: flex;
+}
+.bg-color {
+  background-color: blue;
+  height: 80vh;
+  width: 30%;
+  
+  
+}
+.image4 {
+  width: auto;
+  height: 200px;
+  position: absolute;
+  right: 50vw;
+  
+}
+
+.sec4-con {
+  width: 70%;
+  height: 100vh;
+  background-color: #6D6151;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.text-con {
+width: 400px;
+height: 400px;
 }
